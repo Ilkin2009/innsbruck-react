@@ -1,0 +1,190 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	font-family: "Noto Sans",sans-serif;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.page-header {
+	display: flex;
+}
+.main-menu {
+	flex-grow: 1;
+}
+.main-menu-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+.main-menu-list a {
+	font-size: 24px;
+	line-height: 41px;
+	color: #2a3d8f;
+}
+.main-menu-list a:hover {
+	color: #3893cc;
+}
+.page-footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px 0;
+	color: black;
+}
+.hashtag {
+	margin: 0;
+	padding: 0;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.footer-social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.social-button {
+	margin: 0 10px;
+
+}
+.copyright {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer-wrapper {
+	background-color: #b5d4c5;
+}
+h2 {
+	color: #2a3d8f;
+	font-size: 36px;
+	line-height: 49px;
+}
+h3 {
+	font-size: 30px;
+	line-height: 41px;
+}
+.slogan {
+	height: 358px;
+	background-size: cover;
+}
+.slogan h1 {
+	margin: 0;
+	padding-top: 140px;
+	font-size: 60px;
+	line-height: 82px;
+	color: white;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.about-numbers-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 20px;
+}
+.about-numbers-list li::before {
+	content: "✓";
+	margin-right: 3px;
+}
+.marketing {
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+	background-position: center right;
+	width: 30%;
+}
+.marketing p {
+	margin: 0;
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 2vw;
+	line-height: 33px;
+}
+.marketing a {
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 60px;
+	padding: 5px 10px;
+	background-color: white;
+	opacity: 0.7;
+	align-self: flex-end;
+	color: black;
+}
+.about-weather-graph {
+	border: 1px solid #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.about-weather-graph img {
+	width: 100%;
+}
+.about-weather-graph figcaption {
+	font-size: 22px;
+	line-height: 33px;
+	background-color: #7c7c7c;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+.gallery-list {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.gallery-item {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	align-items: center;
+	min-height: 256px;
+	text-align: center;
+	color: white;
+	background-color: #b5d4c5;
+}
+.gallery-item h3 {
+	text-transform: uppercase;	
+	flex-grow: 1;
+}
+.transfer {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 800px;
+}
+.transfer th {
+	background-color: #191970;
+	color:  white;
+	border: 1px solid black;
+	padding: 3px 5px;
+	width: 25%;
+}
+.transfer td {
+	text-align: center;
+	border: 1px solid black;
+	padding: 3px 5px;
+	width: 25%;
+}
